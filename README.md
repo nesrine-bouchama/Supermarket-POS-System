@@ -2,42 +2,48 @@
 
 A professional Point of Sale (POS) desktop application built with Python, CustomTkinter, and MongoDB. Designed for supermarket environments with role-based access control, real-time inventory management, and PDF receipt generation.
 
+![Supermarket](screenshots/main interface admin 1.png)
+![Supermarket](screenshots/main interface admin 2.png)
+
 ✨ Features
 
 # 🔐 Authentication & Security
 - Secure login system with **bcrypt** password hashing
 - Role-based access control (**Admin** / **Cashier**)
 - Admin-only management panels
-
+![Login](screenshots/login 1.png)
+![Login](screenshots/login 2.png)
 # 🛒 Point of Sale (Cashier & Admin)
 - Product search and barcode scanning
 - Shopping cart with quantity controls (+/−/remove)
 - Stock validation (prevents over-selling)
 - Cash & Card payment modes with change calculation
 - Automatic PDF receipt/invoice generation
-
+![Sale](screenshots/sales interface staff.png)
 # 📦 Product Management (Admin Only)
 - Full CRUD operations (Add, Edit, Delete)
 - Advanced filters: category, price range, name search
 - Low stock and out-of-stock visual indicators
 - Barcode support for each product
-
+![Product](screenshots/product interface admin.png)
 # 📊 Dashboard & Analytics (Admin Only)
 - Stat cards: Total Products, Revenue, Low Stock, Out of Stock, Total Sales
 - Daily sales trend chart (line graph)
 - Monthly sales report (bar chart with summary stats)
 - Low stock alerts list
+![Dashboard](screenshots/dashboard interface admin.png)
 
 # 🧾 Receipts & Sales History
 - View all past sales with item details
 - Print/reprint PDF receipts from sales history
 - Professional PDF invoices saved to `receipts/` folder
-
+![Dashboard](screenshots/receipts interface admin.png)
 # 👥 User Management (Admin Only)
 - Create new users (Admin or Cashier roles)
 - Delete non-admin users
 - User list with role indicators
-
+dashboard interface admin  
+![User](screenshots/usser interface admin.png)
 # 🎨 UI/UX
 - Dark & Light theme toggle
 - Professional dark-themed UI with CustomTkinter
@@ -202,6 +208,4 @@ pyinstaller POS_System.spec
 
 This project is developed as an educational mini-project.
 
-<p align="center">
   Made with ❤️ using Python & CustomTkinter
-</p>
