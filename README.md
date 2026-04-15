@@ -2,8 +2,8 @@
 
 A professional Point of Sale (POS) desktop application built with Python, CustomTkinter, and MongoDB. Designed for supermarket environments with role-based access control, real-time inventory management, and PDF receipt generation.
 
-![Supermarket](Screenshots/maininterfaceadmin1.png)
-![Supermarket](Screenshots/maininterfaceadmin2.png)
+![Supermarket](Screenshot/maininterfaceadmin1.png)
+![Supermarket](Screenshot/maininterfaceadmin2.png)
 
 ✨ Features
 
@@ -11,39 +11,39 @@ A professional Point of Sale (POS) desktop application built with Python, Custom
 - Secure login system with **bcrypt** password hashing
 - Role-based access control (**Admin** / **Cashier**)
 - Admin-only management panels
-![Login](screenshots/login1.png)
-![Login](screenshots/login2.png)
+![Login](Screenshots/login1.png)
+![Login](Screenshots/login2.png)
 # 🛒 Point of Sale (Cashier & Admin)
 - Product search and barcode scanning
 - Shopping cart with quantity controls (+/−/remove)
 - Stock validation (prevents over-selling)
 - Cash & Card payment modes with change calculation
 - Automatic PDF receipt/invoice generation
-![Sale](screenshots/salesinterfacestaff.png)
+![Sale](Screenshots/salesinterfacestaff.png)
 # 📦 Product Management (Admin Only)
 - Full CRUD operations (Add, Edit, Delete)
 - Advanced filters: category, price range, name search
 - Low stock and out-of-stock visual indicators
 - Barcode support for each product
-![Product](screenshots/productinterfaceadmin.png)
+![Product](Screenshots/productinterfaceadmin.png)
 # 📊 Dashboard & Analytics (Admin Only)
 - Stat cards: Total Products, Revenue, Low Stock, Out of Stock, Total Sales
 - Daily sales trend chart (line graph)
 - Monthly sales report (bar chart with summary stats)
 - Low stock alerts list
-![Dashboard](screenshots/dashboardinterfaceadmin.png)
+![Dashboard](Screenshots/dashboardinterfaceadmin.png)
 
 # 🧾 Receipts & Sales History
 - View all past sales with item details
 - Print/reprint PDF receipts from sales history
 - Professional PDF invoices saved to `receipts/` folder
-![Dashboard](screenshots/receiptsinterfaceadmin.png)
+![Dashboard](Screenshots/receiptsinterfaceadmin.png)
 # 👥 User Management (Admin Only)
 - Create new users (Admin or Cashier roles)
 - Delete non-admin users
 - User list with role indicators
 dashboard interface admin  
-![User](screenshots/userinterfaceadmin.png)
+![User](Screenshots/userinterfaceadmin.png)
 # 🎨 UI/UX
 - Dark & Light theme toggle
 - Professional dark-themed UI with CustomTkinter
