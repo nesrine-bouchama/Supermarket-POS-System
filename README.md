@@ -2,8 +2,8 @@
 
 A professional Point of Sale (POS) desktop application built with Python, CustomTkinter, and MongoDB. Designed for supermarket environments with role-based access control, real-time inventory management, and PDF receipt generation.
 
-![Supermarket](Screenshot/maininterfaceadmin1.png)
-![Supermarket](Screenshot/maininterfaceadmin2.png)
+![Supermarket](screenshot/maininterfaceadmin1.png)
+![Supermarket](screenshot/maininterfaceadmin2.png)
 
 ✨ Features
 
