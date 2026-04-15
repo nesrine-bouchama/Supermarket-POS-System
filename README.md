@@ -143,10 +143,10 @@ This creates two default users:
 - **admin** / `1234` (Admin role)
 - **cashier** / `1234` (Cashier role)
 
-# 5. (Optional) Seed sample products
+# 5. Seed sample products
 
 
-python 1.py
+python product_data.py
 
 
 This inserts 50+ products across 11 categories (Dairy, Bakery, Drinks, Grocery, Snacks, Meat, Eggs, Cleaning, Personal Care, Canned, Fruits & Vegetables).
@@ -183,7 +183,8 @@ python app.py
 | `admin`   | `1234`   | Admin   |
 | `cashier` | `1234`   | Cashier |
 
-> ⚠️ Important: Run `python init_db.py` first to create these users with properly hashed passwords.
+> ⚠️ Important:
+  Run `python init_db.py` first to create these users with properly hashed passwords.
 
 #📦 Building the Executable
 
@@ -202,6 +203,5 @@ pyinstaller POS_System.spec
 
 This project is developed as an educational mini-project.
 
-<p align="center">
-  Made with ❤️ using Python & CustomTkinter
-</p>
+
+Made with ❤️ using Python & CustomTkinter
