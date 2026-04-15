@@ -119,6 +119,8 @@ POS_System/
 │
 └── receipts/               # Generated PDF invoices (auto-created)
 
+📦 The database dump/export is available in the `supermarket` folder.
+
 # 🚀 Installation
 
 # 1. Clone or download the project
