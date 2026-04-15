@@ -1,0 +1,6 @@
+customtkinter
+pymongo
+bcrypt
+reportlab
+matplotlib
+pyinstaller
