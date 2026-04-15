@@ -125,6 +125,8 @@ POS_System/
 │
 └── receipts/               # Generated PDF invoices (auto-created)
 
+📦 The database dump/export is available in the `supermarket` folder.
+
 # 🚀 Installation
 
 # 1. Clone or download the project
@@ -149,10 +151,10 @@ This creates two default users:
 - **admin** / `1234` (Admin role)
 - **cashier** / `1234` (Cashier role)
 
-# 5. (Optional) Seed sample products
+# 5. Seed sample products
 
 
-python 1.py
+python product_data.py
 
 
 This inserts 50+ products across 11 categories (Dairy, Bakery, Drinks, Grocery, Snacks, Meat, Eggs, Cleaning, Personal Care, Canned, Fruits & Vegetables).
@@ -189,7 +191,8 @@ python app.py
 | `admin`   | `1234`   | Admin   |
 | `cashier` | `1234`   | Cashier |
 
-> ⚠️ Important: Run `python init_db.py` first to create these users with properly hashed passwords.
+> ⚠️ Important:
+  Run `python init_db.py` first to create these users with properly hashed passwords.
 
 #📦 Building the Executable
 
@@ -208,4 +211,9 @@ pyinstaller POS_System.spec
 
 This project is developed as an educational mini-project.
 
+<<<<<<< HEAD
   Made with ❤️ using Python & CustomTkinter
+=======
+
+Made with ❤️ using Python & CustomTkinter
+>>>>>>> a386e60ec186bc8520e2c7eab7cdf59ce16a92d5
